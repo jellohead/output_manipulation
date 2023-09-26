@@ -3,7 +3,7 @@ import pandas as pd
 import pyreadstat
 
 # Import the data set using pyreadstat
-data_path = "../../../../OneDrive/Marketing Reports/CCR Reports/MCCU/Working/9437 Financial Data_rev2.sav"
+data_path = "/Users/patescalona/Library/CloudStorage/OneDrive-Personal/Marketing Reports/CCR Reports/MCCU/Working/MCCU Report Draft and Templat_/9437 Financial Data_rev2.sav"
 df, meta = pyreadstat.read_sav(data_path)
 
 # list of variables to use as columns and rows for the crosstabs
