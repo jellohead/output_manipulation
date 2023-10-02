@@ -27,7 +27,7 @@ def save_result_to_xlworksheet(excel_filename, worksheet_name, result):
         # result.to_excel(writer, sheet_name=worksheet_name, index_label="Index")
         result.to_excel(
             writer,
-            sheet_name=worksheet_name,
-            index_label="Index",
-            startrow=len(excel_filename) + 1,
+            sheet_name=worksheet_name
+            # index_label="Index",
+            # startrow=len(excel_filename) + 1,
         )
